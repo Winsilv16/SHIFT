@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(to left, #7292A6, #224459);
+    font-family: Arial, sans-serif;
+    color: white;
+}
+
+header {
+    padding: 30px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+
+    display: flex;
+
+    justify-content: center;
+
+    gap: 20px;
+
+    margin-top: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+.pagina {
+    max-width: 1000px;
+
+    margin: auto;
+
+    background-color: #bcc6cc;
+
+    color: black;
+
+    padding: 30px;
+
+    border-radius: 10px;
+}
+
+button {
+    background-color: #2980B9;
+
+    color: white;
+
+    border: none;
+
+    padding: 10px 20px;
+
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+input {
+    width: 100%;
+
+    padding: 10px;
+
+    margin-bottom: 10px;
+
+    border-radius: 5px;
+
+    border: none;
+}
+
+.radio-group {
+    display: flex;
+    gap: 20px;
+    margin-bottom: 15px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th {
+    background-color: #2980B9;
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+    background-color: white;
+}
+
+.hora {
+    color: #2980B9;
+    font-weight: bold;
+}
+
+.palestrantes-grid {
+    display: grid;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    gap: 20px;
+}
+
+.Palestrantes img {
+    width: 100%;
+    height: 300px;
+
+    object-fit: cover;
+
+    border-radius: 10px;
+}
